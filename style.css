@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee|Marvel|Prosto+One&display=swap');
+  h1 {
+    font-size: 75px;
+    color: black;
+    font-family: 'Bungee', cursive;
+    }
+  h2 {
+    font-size: 40px;
+    color: black;
+    font-family: 'Prosto One', cursive;
+    text-align: center;
+    }
+  h3 {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Prosto One', cursive;
+    }
+  p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Marvel', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+  button{
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Prosto One', cursive;
+  }
+  button:hover{
+    border: 1px solid white;
+    color: white;
+    background: black;
+  }
+  #resumebutton{
+      color: black;
+      padding-right: 10px;
+      font-size: 10px;
+  }
+  #about-sec {
+        background: #fff;
+        top: 50%;
+        left: 50%;
+        display: block;
+        position: static;
+        height: 100vh;
+        width: 100vw;
+        float: left;
+        margin: auto;
+      }
+  #about{
+          color: #043b66;
+          font-size: 50px;
+          letter-spacing: 2px;
+          text-align: left;
+          padding-left: 20px;
+      }
+  .description{
+     
+       font-size: 18px;
+       text-align: left;
+       font-family: 'Marvel', sans-serif;
+  }
+  .layout{
+    padding-top: 10px;
+    text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 2px;
+  }
+  
+  /* Create six equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 100%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    text-align: center
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of six columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1200px) {
+    .column {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+ 
+
