@@ -1,39 +1,74 @@
 
-@import url('https://fonts.googleapis.com/css?family=Bungee|Marvel|Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marvel|Prosto+One|Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Muli&display=swap');
   h1 {
-    font-size: 75px;
-    color: black;
-    font-family: 'Bungee', cursive;
+    color: #f03252;
+    text-decoration: none;
+    font-family: 'Kaushan Script';
+    font-weight: 300;
+    margin: 0;
+    font-size: 90px;
     }
   h2 {
     font-size: 40px;
-    color: black;
+    color: #f03252;
     font-family: 'Prosto One', cursive;
     text-align: center;
     }
   h3 {
-    font-size: 20px;
+    font-size: 25px;
     color: whitesmoke;
     font-family: 'Prosto One', cursive;
     }
-  p{
+  h4{
     font-size: 20px;
+    color: #f03252;
+    font-family: 'Prosto One', cursive;
+    text-align: center;
+   }
+  p{
+    font-size: 25px;
     text-align: center;
     font-family: 'Marvel', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
     }
+  .divider{
+      width:5px;
+      height:auto;
+      display:inline-block;
+  }
   button{
-    border: 1px solid black;
-    color: black;
-    font-size: 20px;
-    font-family: 'Prosto One', cursive;
+    border: 1px solid  #f03252;
+    color: whitesmoke;
+    background: black;
+    font-size: 15px;
+    font-family: 'Arial';
+   
   }
   button:hover{
     border: 1px solid white;
     color: white;
     background: black;
   }
+
+  button2{
+    border: 3px solid  black;
+    color: black;
+    background: white;
+    font-size: 15px;
+    font-family: 'Arial';
+   
+    padding: 2px;
+  }
+  button2:hover{
+    border: 3px solid black;
+    color: white;
+    padding: 2px;
+    background: black;
+  }
+
   #resumebutton{
       color: black;
       padding-right: 10px;
@@ -50,13 +85,7 @@
         float: left;
         margin: auto;
       }
-  #about{
-          color: #043b66;
-          font-size: 50px;
-          letter-spacing: 2px;
-          text-align: left;
-          padding-left: 20px;
-      }
+
   .description{
      
        font-size: 18px;
@@ -67,15 +96,7 @@
     padding-top: 10px;
     text-align: center;
   }
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
+ 
   
   /* Center website */
   .main {
@@ -90,13 +111,13 @@
   /* Add padding BETWEEN each column */
   .row,
   .row > .column {
-    padding: 2px;
+    padding: 10px;
   }
   
   /* Create six equal columns that floats next to each other */
   .column {
     float: left;
-    width: 100%;
+    width: 50%;
   }
   
   /* Clear floats after rows */ 
@@ -109,6 +130,8 @@
   /* Content */
   .content {
     background-color: white;
+    border: 3px solid #d3d3d3;
+    color: black;
     padding: 10px;
     text-align: center
   }
@@ -125,7 +148,7 @@
   @media screen and (max-width: 1200px) {
     .column {
       width: 100%;
-      padding: 20px;
+      padding: 10px;
     }
   }
  
