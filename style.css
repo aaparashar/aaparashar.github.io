@@ -44,8 +44,11 @@
     border: 1px solid  #f03252;
     color: whitesmoke;
     background: black;
-    font-size: 15px;
-    font-family: 'Arial';
+    font-size: 25px;
+    font-family: 'Marvel', sans-serif;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
    
   }
   button:hover{
@@ -55,18 +58,20 @@
   }
 
   button2{
-    border: 3px solid  black;
+    border: 1px solid  black;
     color: black;
     background: white;
-    font-size: 15px;
-    font-family: 'Arial';
-   
-    padding: 2px;
+    font-size: 20px;
+    font-family: 'Marvel', sans-serif;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 7px;
   }
   button2:hover{
-    border: 3px solid black;
+    border: 1px solid black;
     color: white;
-    padding: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
     background: black;
   }
 
@@ -151,6 +156,12 @@
       width: 100%;
       padding: 10px;
     }
+  }
+
+ 
+  nav {
+    text-align: right;
+    color: white;
   }
  
 
